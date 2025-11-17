@@ -82,7 +82,6 @@ Durante el proceso comprobamos que:
  ┣ 📄 index.html
  ┣ 📄 style.css
  ┣ 📄 favicon.ico
- ┣ 📁 assets/ (imágenes u otros recursos)
  ┣ 📄 README.md
 ```
 
