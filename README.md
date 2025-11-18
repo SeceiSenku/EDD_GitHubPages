@@ -79,6 +79,8 @@ Durante el proceso comprobamos que:
 
 ```
 📁 EDD_GitHubPages
+ ┣ 📁 assets
+ ┣  ┣ 📷 logo_porsche.png
  ┣ 📄 index.html
  ┣ 📄 style.css
  ┣ 📄 favicon.ico
