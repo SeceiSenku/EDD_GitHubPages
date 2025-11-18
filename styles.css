@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Leto", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header{
+    top: 0px;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 3px solid #d4001cc3;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+header a{
+    text-decoration: none;
+    font-family: "Leto", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(82, 82, 82);
+    padding: 15px, 60px;
+    margin: 70px 70px;
+}
+
+header a:hover{
+    color: #d5001c;
+    background-color: box-shadow 0 2px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.debajo-header{
+    height: 90px;
+    width: 100%;
+    position: relative;
+    z-index: 1; 
+}
+
+.hero-inicio {
+    position: inherit;
+    justify-content: center;
+    z-index: 10;
+}
+
+.hero-imagen_1 {
+    background-image: url("https://images.alphacoders.com/135/thumb-1920-1357373.jpeg");
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2; 
+}
+
+.hero-imagen_2 {
+    background-image: url("https://www.supercars.net/blog/wp-content/uploads/2020/07/1839738.jpg");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+
+}
+
+.hero-imagen_3 {
+    top:auto;
+    background-image: url("https://www.supercars.net/blog/wp-content/uploads/2020/07/1839793.jpg");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+
+}
+
+.hero-imagen_4 {
+    top:auto;
+    background-image: url("https://www.supercars.net/blog/wp-content/uploads/2020/07/928370-scaled.jpg");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+
+}
+
+.hero-imagen_5{
+    top:auto;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/58a2b510e6f2e1853f46bd65/1626716815556-OQ4UVQAFUAEY3ZPDF9GY/Carrera%2BRS.jpg?format=2500w");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.hero-imagen_6{
+    top: 50px;
+    background-image: url("https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2019/motorsports/2019/PCCD/PCCD-celebrates-the-end-of-the-30th-season/Gallery/M09_1059_fine.jpeg/jcr:content/M09_1059_fine.jpeg");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.hero-imagen_7{
+    top:auto;
+    background-image: url("https://images.unsplash.com/photo-1698753047029-05b3011609b7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.hero-imagen_8{
+    top:auto;
+    background-image: url("https://images.ctfassets.net/s699s7kh1jys/1WtJwqt7rpVxLp5NbgFQFI/a3f4f597b72e726041870bd69a270484/porsche_911_wallpapers_carrera_gts_2_desktop.jpg");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.hero-imagen_9{
+    top:auto;
+    background-image: url("https://images.unsplash.com/photo-1748684207698-07a0b2d79fa6?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3aaAfDBa8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    position: sticky; /* Cambiado a Absolute */
+    display: flex;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.contenedor{
+    background-color: rgb(240, 240, 240);
+    font-family: "Leto", Arial, sans-serif;
+    color: rgb(82, 82, 82);
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+      
+}
+
+.contenedor_deg_up {
+    top: 35px;
+    background: linear-gradient(
+        to top, 
+        rgba(240, 240, 240, 1) 0%,
+        rgba(240, 240, 240, 0.5) 50%,
+        rgba(240, 240, 240, 0) 100%);
+    min-height: 35vh; 
+    box-sizing: border-box;
+    position: relative;
+    z-index: 11;
+}
+
+
+
+.contenedor section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contenedor section h2 {
+    font-size: 40px !important;
+}
+
+.contenedor section h3 {
+    font-size: 40px !important;
+}
+
+.contenedor section p{
+    font-size: 18px !important;
+    text-align: justify;
+}
+
+.hero-inicio h1{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    top: 100px;
+    left: 530px;
+}
+
+.hero-inicio p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    top: 450px;
+    left: 423px;
+}
+
+/* Estilos para el footer */
+.footer {
+    background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+    color: #ffffff;
+    padding: 40px 0 20px;
+    margin-top: 0px;
+    border-top: 3px solid #d5001c; /* Rojo Porsche */
+    position: relative;
+    z-index:2;
+}
+
+.footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.footer-seccion h3 {
+    color: #d5001c; /* Rojo Porsche */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.footer-seccion h4 {
+    color: #f0f0f0;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.footer-seccion p {
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.footer-seccion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-seccion ul li {
+    margin-bottom: 8px;
+}
+
+.footer-seccion a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-seccion a:hover {
+    color: #d5001c; /* Rojo Porsche al hover */
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales a {
+    font-size: 1.5em;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    background: #d5001c;
+    transform: translateY(-2px);
+}
+
+.footer-copyright {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 20px;
+    border-top: 1px solid #444;
+    text-align: center;
+    color: #888;
+}
+
+.footer-copyright p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-contenido {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .redes-sociales {
+        justify-content: center;
+    }
+}
