@@ -337,3 +337,12 @@ header a:hover{
         justify-content: center;
     }
 }
+
+/* Additional overrides and utility classes */
+:root{--accent:#d5001c}
+nav a{margin-right:12px;text-decoration:none;color:rgb(82,82,82);padding:6px 10px;border-radius:6px;font-weight:700}
+nav a:hover{background:#f3f3f3}
+nav a.active{background:var(--accent);color:#fff}
+.logo{width:64px;display:block}
+.responsive-img{width:100%;max-width:720px;height:auto;border-radius:8px;margin:12px 0}
+html{scroll-behavior:smooth}
